@@ -20,21 +20,17 @@ export default {
   data() {
     console.log("teste")
     return {
-      photos: [],
+      photos: [{
+        name: "teste",
+        url: "https://www.designerd.com.br/wp-content/uploads/2019/05/perspectiva-e-angulo-para-fotos-como-fugir-do-lugar-comum-capa.jpg",
+        description: "Bla bla bla bla bla. pi riririr piriri"
+      }]
     };
   },
-
-  created(){
-    var a;
-    this.$http.get('https://www.designerd.com.br/wp-content/uploads/2019/05/perspectiva-e-angulo-para-fotos-como-fugir-do-lugar-comum-capa.jpg')
-      .then(res => res.json())
-      .then(photos => a)
-      alert(a)
   }
-};
 </script>
 
-<style>
+<style scoped>
 header {
   margin-top: 56px;
   margin-bottom: 40px;
