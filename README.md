@@ -1,29 +1,19 @@
-# hello-world
+# Hello dev - can you want see my beautiful project? hehehe
 
-## Project setup
+## You need to execute two commands
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
 ```
 yarn run serve
 ```
+tchanaaaa, my project is runing in your computer
 
 ### Compiles and minifies for production
 ```
 yarn run build
 ```
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### This are the features and dependencies use to project
+See [Vue docs](https://cli.vuejs.org/).
